@@ -1,0 +1,558 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/WINDOWS/system32
+vAdder1
+Z0 !s110 1509142103
+!i10b 1
+!s100 QH@z5`XLPFPSP49GR7U0d2
+IARYZQ6GTgM?8Fia9>IY`Y3
+Z1 V`JN@9S9cnhjKRR_L]QIcM3
+Z2 dC:/Users/Cyrus/Desktop/CPEN211/lab6
+Z3 w1508748123
+Z4 8C:/Users/Cyrus/Desktop/CPEN211/lab6/alu.v
+Z5 FC:/Users/Cyrus/Desktop/CPEN211/lab6/alu.v
+L0 59
+Z6 OV;L;10.3d;59
+r1
+!s85 0
+31
+Z7 !s108 1509142103.216000
+Z8 !s107 C:/Users/Cyrus/Desktop/CPEN211/lab6/alu.v|
+Z9 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Cyrus/Desktop/CPEN211/lab6/alu.v|
+!i113 1
+Z10 o-work work
+n@adder1
+vAddSub
+R0
+!i10b 1
+!s100 I<hS2`R@G_O;NTgb<AhbD2
+Ide6E6QLZkjS<eb]<bhIgN0
+R1
+R2
+R3
+R4
+R5
+L0 44
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+n@add@sub
+valu
+R0
+!i10b 1
+!s100 U799EM29KN<H8:<Zb==3O0
+IAJFja[4M5AIV`7mDEN4^Q0
+R1
+R2
+R3
+R4
+R5
+L0 1
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+valu_tb
+R0
+!i10b 1
+!s100 V[n6EF44@ii[lLoXMD<<11
+II^QFQ]36hnV;ES6n7S4a@3
+R1
+R2
+w1508753545
+8C:/Users/Cyrus/Desktop/CPEN211/lab6/alu_tb.v
+FC:/Users/Cyrus/Desktop/CPEN211/lab6/alu_tb.v
+L0 1
+R6
+r1
+!s85 0
+31
+!s108 1509142103.388000
+!s107 C:/Users/Cyrus/Desktop/CPEN211/lab6/alu_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Cyrus/Desktop/CPEN211/lab6/alu_tb.v|
+!i113 1
+R10
+vcpu
+Z11 !s110 1509142104
+!i10b 1
+!s100 _?QII5YfSF^QSiW[`lo>33
+Ii>XM6fgS1aIaQ^FIkmZmV1
+R1
+R2
+Z12 w1508785975
+Z13 8C:/Users/Cyrus/Desktop/CPEN211/lab6/cpu.v
+Z14 FC:/Users/Cyrus/Desktop/CPEN211/lab6/cpu.v
+L0 1
+R6
+r1
+!s85 0
+31
+Z15 !s108 1509142104.663000
+Z16 !s107 C:/Users/Cyrus/Desktop/CPEN211/lab6/cpu.v|
+Z17 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Cyrus/Desktop/CPEN211/lab6/cpu.v|
+!i113 1
+R10
+vcpu_autograder_example_tb
+R0
+!i10b 1
+!s100 R?511HEJ7Fmz?PlKjhf;T0
+IP1KbMH@HT3YY^_HZl?Cbh2
+R1
+R2
+w1508790284
+8C:/Users/Cyrus/Desktop/CPEN211/lab6/cpu_tb_autograder_example.v
+FC:/Users/Cyrus/Desktop/CPEN211/lab6/cpu_tb_autograder_example.v
+L0 5
+R6
+r1
+!s85 0
+31
+!s108 1509142103.528000
+!s107 C:/Users/Cyrus/Desktop/CPEN211/lab6/cpu_tb_autograder_example.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Cyrus/Desktop/CPEN211/lab6/cpu_tb_autograder_example.v|
+!i113 1
+R10
+vdatapath
+R0
+!i10b 1
+!s100 F^8LWJWQ^B2Si5^565UY=2
+IBkX`kTRD5AFlUkiz;1aJB2
+R1
+R2
+Z18 w1508753605
+Z19 8C:/Users/Cyrus/Desktop/CPEN211/lab6/datapath.v
+Z20 FC:/Users/Cyrus/Desktop/CPEN211/lab6/datapath.v
+L0 1
+R6
+r1
+!s85 0
+31
+Z21 !s108 1509142103.665000
+Z22 !s107 C:/Users/Cyrus/Desktop/CPEN211/lab6/datapath.v|
+Z23 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Cyrus/Desktop/CPEN211/lab6/datapath.v|
+!i113 1
+R10
+vdatapath_tb
+R0
+!i10b 1
+!s100 YoDkGPGGC8CXT<^ETLoe63
+IjIWONb4YPicoTF[X_i6bi1
+R1
+R2
+w1508754223
+8C:/Users/Cyrus/Desktop/CPEN211/lab6/datapath_tb.v
+FC:/Users/Cyrus/Desktop/CPEN211/lab6/datapath_tb.v
+L0 1
+R6
+r1
+!s85 0
+31
+!s108 1509142103.811000
+!s107 C:/Users/Cyrus/Desktop/CPEN211/lab6/datapath_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Cyrus/Desktop/CPEN211/lab6/datapath_tb.v|
+!i113 1
+R10
+vdec
+R11
+!i10b 1
+!s100 m<_h5bL]^X5SJ46NzXA<g1
+I9CBW22G^2AENEN:1N:b:21
+R1
+R2
+Z24 w1508674477
+Z25 8C:/Users/Cyrus/Desktop/CPEN211/lab6/regfile.v
+Z26 FC:/Users/Cyrus/Desktop/CPEN211/lab6/regfile.v
+L0 48
+R6
+r1
+!s85 0
+31
+Z27 !s108 1509142104.172000
+Z28 !s107 C:/Users/Cyrus/Desktop/CPEN211/lab6/regfile.v|
+Z29 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Cyrus/Desktop/CPEN211/lab6/regfile.v|
+!i113 1
+R10
+vFSM
+R11
+!i10b 1
+!s100 T[Fgkm[O4V]EK3YalTonS2
+Ia;B0<WS=^@6HPBhZ0@IFh0
+R1
+R2
+R12
+R13
+R14
+L0 82
+R6
+r1
+!s85 0
+31
+R15
+R16
+R17
+!i113 1
+R10
+n@f@s@m
+vinput_iface
+R11
+!i10b 1
+!s100 8SgM@8TG_;?zeKCKSLm2H1
+I9J:?Z>OOinN[bIDP<h3?D1
+R1
+R2
+Z30 w1508742323
+Z31 8C:/Users/Cyrus/Desktop/CPEN211/lab6/lab6_top.v
+Z32 FC:/Users/Cyrus/Desktop/CPEN211/lab6/lab6_top.v
+Z33 L0 76
+R6
+r1
+!s85 0
+31
+Z34 !s108 1509142103.965000
+Z35 !s107 C:/Users/Cyrus/Desktop/CPEN211/lab6/lab6_top.v|
+Z36 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Cyrus/Desktop/CPEN211/lab6/lab6_top.v|
+!i113 1
+R10
+vlab5_top
+!s110 1508634677
+!i10b 1
+!s100 =j:FgMjCHK1iYD^BjBJzX3
+IJAOjmG;U[k4YM[@0WFF0f1
+R1
+R2
+w1508034087
+8C:/Users/Cyrus/Desktop/CPEN211/lab6/lab5_top.v
+FC:/Users/Cyrus/Desktop/CPEN211/lab6/lab5_top.v
+L0 57
+R6
+r1
+!s85 0
+31
+!s108 1508634677.908000
+!s107 C:/Users/Cyrus/Desktop/CPEN211/lab6/lab5_top.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Cyrus/Desktop/CPEN211/lab6/lab5_top.v|
+!i113 1
+R10
+vlab6_top
+R11
+!i10b 1
+!s100 6`1F>SmZ`NQ>?FGgGnkdL1
+IY_@dnLcLgPM3kd>8]BZz42
+R1
+R2
+R30
+R31
+R32
+L0 40
+R6
+r1
+!s85 0
+31
+R34
+R35
+R36
+!i113 1
+R10
+vmux2
+R11
+!i10b 1
+!s100 Yif^bd3_74C?[lhV_H2D@1
+Ikd^S8LCD_<i74aaZ0c<Ai1
+R1
+R2
+R24
+R25
+R26
+L0 79
+R6
+r1
+!s85 0
+31
+R27
+R28
+R29
+!i113 1
+R10
+vmux31
+R11
+!i10b 1
+!s100 ^TFobIb]ZcR[]=;Q<LoSH2
+I<W_Sg>8HT6JLXT9;_dgm32
+R1
+R2
+R12
+R13
+R14
+L0 51
+R6
+r1
+!s85 0
+31
+R15
+R16
+R17
+!i113 1
+R10
+vmux41
+R0
+!i10b 1
+!s100 ETF070?D]Zd6W?RizURB30
+I;JmNHd7PC=Xhg:SXAK]U13
+R1
+R2
+R18
+R19
+R20
+Z37 L0 61
+R6
+r1
+!s85 0
+31
+R21
+R22
+R23
+!i113 1
+R10
+vregfile
+R11
+!i10b 1
+!s100 S7BPj;S@7VRiKg^EC9A]C0
+ICi23jdYQDIIRG7Slez45[3
+R1
+R2
+R24
+R25
+R26
+L0 1
+R6
+r1
+!s85 0
+31
+R27
+R28
+R29
+!i113 1
+R10
+vregfile_tb
+R11
+!i10b 1
+!s100 hk8DHge0<N?TnZG9lniBh0
+IPIFb0?J=emM<Ji<0WT9_<1
+R1
+R2
+w1507873363
+8C:/Users/Cyrus/Desktop/CPEN211/lab6/regfile_tb.v
+FC:/Users/Cyrus/Desktop/CPEN211/lab6/regfile_tb.v
+L0 1
+R6
+r1
+!s85 0
+31
+!s108 1509142104.331000
+!s107 C:/Users/Cyrus/Desktop/CPEN211/lab6/regfile_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Cyrus/Desktop/CPEN211/lab6/regfile_tb.v|
+!i113 1
+R10
+vshifter
+R11
+!i10b 1
+!s100 dz<ZRS][8=AX11hlG;M4T3
+IKZQJll_2gYKV<]B]G]5Un1
+R1
+R2
+w1508031800
+8C:/Users/Cyrus/Desktop/CPEN211/lab6/shifter.v
+FC:/Users/Cyrus/Desktop/CPEN211/lab6/shifter.v
+L0 1
+R6
+r1
+!s85 0
+31
+!s108 1509142104.533000
+!s107 C:/Users/Cyrus/Desktop/CPEN211/lab6/shifter.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Cyrus/Desktop/CPEN211/lab6/shifter.v|
+!i113 1
+R10
+vshifter_tb
+!s110 1509142102
+!i10b 1
+!s100 SE1m5JF]6YPP1zdF1@Ze22
+I`B:@ZBj5;L3]gj13kdRD@2
+R1
+R2
+w1507971194
+8C:/Users/Cyrus/Desktop/CPEN211/lab6/shifter_tb.v
+FC:/Users/Cyrus/Desktop/CPEN211/lab6/shifter_tb.v
+L0 1
+R6
+r1
+!s85 0
+31
+!s108 1509142102.708000
+!s107 C:/Users/Cyrus/Desktop/CPEN211/lab6/shifter_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Cyrus/Desktop/CPEN211/lab6/shifter_tb.v|
+!i113 1
+R10
+vsignExtend
+!s110 1508672318
+!i10b 1
+!s100 NlabKJ`f[N_>a<_Iz9>7n0
+IQ=63Z[`0A=MI1l5VQDU:e2
+R1
+R2
+w1508668443
+R13
+R14
+R33
+R6
+r1
+!s85 0
+31
+!s108 1508672317.994000
+R16
+R17
+!i113 1
+R10
+nsign@extend
+vsignExtended
+R11
+!i10b 1
+!s100 ;W::`PABFeA>=I7EAhd_g0
+IPfDTZdWGhnTa<hjD[lX`d1
+R1
+R2
+R12
+R13
+R14
+L0 67
+R6
+r1
+!s85 0
+31
+R15
+R16
+R17
+!i113 1
+R10
+nsign@extended
+vsseg
+R11
+!i10b 1
+!s100 Y=W:>6m4_<1?gPiMAa^@o0
+IUT[m@GYP5dLI_468e5`Xn3
+R1
+R2
+R30
+R31
+R32
+L0 104
+R6
+r1
+!s85 0
+31
+R34
+R35
+R36
+!i113 1
+R10
+vtest
+!s110 1508648527
+!i10b 1
+!s100 HYo6b7jVzJ02RGYPoBQhf0
+IR0Kbng8>n1^zFLEEBQcJa2
+R1
+R2
+w1508648519
+Z38 8C:\Users\Cyrus\Desktop\CPEN211\lab6\cpu.v
+Z39 FC:\Users\Cyrus\Desktop\CPEN211\lab6\cpu.v
+L0 80
+R6
+r1
+!s85 0
+31
+!s108 1508648527.015000
+Z40 !s107 C:\Users\Cyrus\Desktop\CPEN211\lab6\cpu.v|
+Z41 !s90 -reportprogress|300|-work|work|-stats=none|C:\Users\Cyrus\Desktop\CPEN211\lab6\cpu.v|
+!i113 1
+R10
+vtestXTEND
+!s110 1508730921
+!i10b 1
+!s100 ]DJo[OFL`IeRRXnS45F`S1
+IFWO`X=cM:f@W3jQDLDRW91
+R1
+R2
+w1508730141
+R38
+R39
+L0 99
+R6
+r1
+!s85 0
+31
+!s108 1508730921.974000
+R40
+R41
+!i113 1
+R10
+ntest@x@t@e@n@d
+vvDFF
+R11
+!i10b 1
+!s100 VhMlA[45LcS1YFUTFg;<I2
+I3_><@;gfWDGDI^?=8BP<V1
+R1
+R2
+R30
+R31
+R32
+L0 87
+R6
+r1
+!s85 0
+31
+R34
+R35
+R36
+!i113 1
+R10
+nv@d@f@f
+vvDFFE
+R11
+!i10b 1
+!s100 7=zz^1>Y0gojcLLneA@>L1
+INf4DNR<;639TlU>3Q6<CS3
+R1
+R2
+R24
+R25
+R26
+R37
+R6
+r1
+!s85 0
+31
+R27
+R28
+R29
+!i113 1
+R10
+nv@d@f@f@e

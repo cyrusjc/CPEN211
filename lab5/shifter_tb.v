@@ -1,0 +1,30 @@
+module shifter_tb () ;
+   
+	reg [15:0] Bin;
+	reg [1:0] shifter;
+	wire [15:0] Bout;
+
+	shifter dut(Bin, shifter, Bout);
+
+	initial begin
+
+		Bin = 16'b1010_1010_1010_1010;
+		shifter = 2'b00;#5
+		$display("NO SHIFT: \nexpect 1010101010101010\nactual: %b\n",Bout);#10;
+		shifter = 2'b01;#5
+		$display("LEFT SHIFT MSB 0: \nexpect: 0101010101010100\nactual: %b\n",Bout);#10;
+		shifter = 2'b10;#5;
+		$display("RIGHT SHIFT MSB 0: \nexpect: 0101010101010101\nactual: %b\n",Bout);#10;	
+		shifter = 2'b11;#5;	
+		$display("RIGHT SHIFT MSB 1: \nexpect: 1101010101010101\nactual: %b\n",Bout);#10;		
+		Bin = 16'b0010_1010_1010_1010;#5;		
+		$display("RIGHT SHIFT MSB 0: \nexpect: 0001010101010101\nactual: %b\n",Bout);#10;
+		Bin = 16'b1000_0000_0000_1010;#5;		
+		$display("RIGHT SHIFT MSB 1: \nexpect: 1100000000000101\nactual: %b\n",Bout);#10;	
+
+		shifter = 2'bxx;#5$display("RIGHT SHIFT MSB 1: \nexpect: 1100000000000101\nactual: %b\n",Bout);#10;	
+		$display("shifter is xx no output...: \nexpect: xxxxxxxxxxxxxxxx\nactual: %b\n",Bout);#10;	
+		
+	end
+endmodule
+

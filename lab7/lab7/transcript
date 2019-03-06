@@ -1,0 +1,228 @@
+# Compile of shifter_tb.v was successful.
+# Compile of alu.v was successful.
+# Compile of alu_tb.v was successful.
+# Compile of cpu.v was successful.
+# Compile of datapath.v was successful.
+# Compile of datapath_tb.v was successful.
+# Compile of lab7_autograder_check.v was successful.
+# Compile of regfile.v was successful.
+# Compile of regfile_tb.v was successful.
+# Compile of shifter.v was successful.
+# Compile of lab7_top.v was successful.
+# Compile of lab7_top_tb.v was successful.
+# 12 compiles, 0 failed with no errors.
+vsim -gui work.lab7_check_tb
+# vsim -gui 
+# Start time: 15:44:27 on Oct 30,2017
+# Loading work.lab7_check_tb
+# Loading work.lab7_top
+# Loading work.cpu
+# Loading work.signExtended
+# Loading work.vDFFE
+# Loading work.mux31
+# Loading work.FSM
+# Loading work.vDFF
+# Loading work.datapath
+# Loading work.mux41
+# Loading work.regfile
+# Loading work.dec
+# Loading work.mux2
+# Loading work.shifter
+# Loading work.alu
+# Loading work.AddSub
+# Loading work.Adder1
+# Loading work.RAM
+run
+# FAILED: mem[0] wrong; please set data.txt using Figure 6
+# ** Note: $stop    : C:/Users/Cyrus/Desktop/CPEN211/lab7/lab7_autograder_check.v(19)
+#    Time: 0 ps  Iteration: 0  Instance: /lab7_check_tb
+# Break in Module lab7_check_tb at C:/Users/Cyrus/Desktop/CPEN211/lab7/lab7_autograder_check.v line 19
+run
+# FAILED: mem[1] wrong; please set data.txt using Figure 6
+# ** Note: $stop    : C:/Users/Cyrus/Desktop/CPEN211/lab7/lab7_autograder_check.v(20)
+#    Time: 0 ps  Iteration: 0  Instance: /lab7_check_tb
+# Break in Module lab7_check_tb at C:/Users/Cyrus/Desktop/CPEN211/lab7/lab7_autograder_check.v line 20
+run
+# FAILED: mem[2] wrong; please set data.txt using Figure 6
+# ** Note: $stop    : C:/Users/Cyrus/Desktop/CPEN211/lab7/lab7_autograder_check.v(21)
+#    Time: 0 ps  Iteration: 0  Instance: /lab7_check_tb
+# Break in Module lab7_check_tb at C:/Users/Cyrus/Desktop/CPEN211/lab7/lab7_autograder_check.v line 21
+restart -f
+quit -sim
+vsim -gui work.lab7_check_tb
+# vsim 
+# Start time: 15:46:11 on Oct 30,2017
+# Loading work.lab7_check_tb
+# Loading work.lab7_top
+# Loading work.cpu
+# Loading work.signExtended
+# Loading work.vDFFE
+# Loading work.mux31
+# Loading work.FSM
+# Loading work.vDFF
+# Loading work.datapath
+# Loading work.mux41
+# Loading work.regfile
+# Loading work.dec
+# Loading work.mux2
+# Loading work.shifter
+# Loading work.alu
+# Loading work.AddSub
+# Loading work.Adder1
+# Loading work.RAM
+run
+# FAILED: mem[0] wrong; please set data.txt using Figure 6
+# ** Note: $stop    : C:/Users/Cyrus/Desktop/CPEN211/lab7/lab7_autograder_check.v(19)
+#    Time: 0 ps  Iteration: 0  Instance: /lab7_check_tb
+# Break in Module lab7_check_tb at C:/Users/Cyrus/Desktop/CPEN211/lab7/lab7_autograder_check.v line 19
+run
+# FAILED: mem[1] wrong; please set data.txt using Figure 6
+# ** Note: $stop    : C:/Users/Cyrus/Desktop/CPEN211/lab7/lab7_autograder_check.v(20)
+#    Time: 0 ps  Iteration: 0  Instance: /lab7_check_tb
+# Break in Module lab7_check_tb at C:/Users/Cyrus/Desktop/CPEN211/lab7/lab7_autograder_check.v line 20
+run
+# FAILED: mem[2] wrong; please set data.txt using Figure 6
+# ** Note: $stop    : C:/Users/Cyrus/Desktop/CPEN211/lab7/lab7_autograder_check.v(21)
+#    Time: 0 ps  Iteration: 0  Instance: /lab7_check_tb
+# Break in Module lab7_check_tb at C:/Users/Cyrus/Desktop/CPEN211/lab7/lab7_autograder_check.v line 21
+run
+# FAILED: mem[3] wrong; please set data.txt using Figure 6
+# ** Note: $stop    : C:/Users/Cyrus/Desktop/CPEN211/lab7/lab7_autograder_check.v(22)
+#    Time: 0 ps  Iteration: 0  Instance: /lab7_check_tb
+# Break in Module lab7_check_tb at C:/Users/Cyrus/Desktop/CPEN211/lab7/lab7_autograder_check.v line 22
+run
+# FAILED: mem[4] wrong; please set data.txt using Figure 6
+# ** Note: $stop    : C:/Users/Cyrus/Desktop/CPEN211/lab7/lab7_autograder_check.v(23)
+#    Time: 0 ps  Iteration: 0  Instance: /lab7_check_tb
+# Break in Module lab7_check_tb at C:/Users/Cyrus/Desktop/CPEN211/lab7/lab7_autograder_check.v line 23
+run
+# FAILED: mem[4] wrong; please set data.txt using Figure 6
+# ** Note: $stop    : C:/Users/Cyrus/Desktop/CPEN211/lab7/lab7_autograder_check.v(24)
+#    Time: 0 ps  Iteration: 0  Instance: /lab7_check_tb
+# Break in Module lab7_check_tb at C:/Users/Cyrus/Desktop/CPEN211/lab7/lab7_autograder_check.v line 24
+run
+# FAILED: R0 should be 5.
+# ** Note: $stop    : C:/Users/Cyrus/Desktop/CPEN211/lab7/lab7_autograder_check.v(41)
+#    Time: 65 ps  Iteration: 2  Instance: /lab7_check_tb
+# Break in Module lab7_check_tb at C:/Users/Cyrus/Desktop/CPEN211/lab7/lab7_autograder_check.v line 41
+edit lab7_top
+# Error opening C:/Users/Cyrus/Desktop/CPEN211/lab7/lab7_top
+# Path name 'C:/Users/Cyrus/Desktop/CPEN211/lab7/lab7_top' doesn't exist.
+edit lab7_top.v
+# Break key hit
+quit -sim
+# Compile of shifter_tb.v was successful.
+# Compile of alu.v was successful.
+# Compile of alu_tb.v was successful.
+# Compile of cpu.v was successful.
+# Compile of datapath.v was successful.
+# Compile of datapath_tb.v was successful.
+# Compile of lab7_autograder_check.v was successful.
+# Compile of regfile.v was successful.
+# Compile of regfile_tb.v was successful.
+# Compile of shifter.v was successful.
+# Compile of lab7_top.v was successful.
+# Compile of lab7_top_tb.v was successful.
+# 12 compiles, 0 failed with no errors.
+vsim -gui work.lab7_top_tb
+# vsim 
+# Start time: 15:47:11 on Oct 30,2017
+# Loading work.lab7_top_tb
+# Loading work.lab7_top
+# Loading work.cpu
+# Loading work.signExtended
+# Loading work.vDFFE
+# Loading work.mux31
+# Loading work.FSM
+# Loading work.vDFF
+# Loading work.datapath
+# Loading work.mux41
+# Loading work.regfile
+# Loading work.dec
+# Loading work.mux2
+# Loading work.shifter
+# Loading work.alu
+# Loading work.AddSub
+# Loading work.Adder1
+# Loading work.RAM
+quit -sim
+vsim -gui work.lab7_top_tb
+# vsim 
+# Start time: 15:47:25 on Oct 30,2017
+# Loading work.lab7_top_tb
+# Loading work.lab7_top
+# Loading work.cpu
+# Loading work.signExtended
+# Loading work.vDFFE
+# Loading work.mux31
+# Loading work.FSM
+# Loading work.vDFF
+# Loading work.datapath
+# Loading work.mux41
+# Loading work.regfile
+# Loading work.dec
+# Loading work.mux2
+# Loading work.shifter
+# Loading work.alu
+# Loading work.AddSub
+# Loading work.Adder1
+# Loading work.RAM
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+restart -f
+run -continue
+run -all
+# Break key hit
+# Break in Module lab7_top_tb at C:/Users/Cyrus/Desktop/CPEN211/lab7/lab7_top_tb.v line 20
+quit -sim
+vsim -gui work.lab7_check_tb
+# vsim 
+# Start time: 15:48:15 on Oct 30,2017
+# Loading work.lab7_check_tb
+# Loading work.lab7_top
+# Loading work.cpu
+# Loading work.signExtended
+# Loading work.vDFFE
+# Loading work.mux31
+# Loading work.FSM
+# Loading work.vDFF
+# Loading work.datapath
+# Loading work.mux41
+# Loading work.regfile
+# Loading work.dec
+# Loading work.mux2
+# Loading work.shifter
+# Loading work.alu
+# Loading work.AddSub
+# Loading work.Adder1
+# Loading work.RAM
+# Load canceled
+run -all
+# INTERFACE OK
+# ** Note: $stop    : C:/Users/Cyrus/Desktop/CPEN211/lab7/lab7_autograder_check.v(61)
+#    Time: 275 ps  Iteration: 2  Instance: /lab7_check_tb
+# Break in Module lab7_check_tb at C:/Users/Cyrus/Desktop/CPEN211/lab7/lab7_autograder_check.v line 61
+# End time: 15:49:16 on Oct 30,2017, Elapsed time: 0:01:01
+# Errors: 1, Warnings: 0

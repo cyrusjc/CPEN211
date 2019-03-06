@@ -1,0 +1,46 @@
+module detectwin_tb ();
+
+  reg [8:0] xin, oin;
+  wire [7:0] win_line;
+
+//DETECT WIN CODE
+
+	DetectWinner dut(.ain(xin),.bin(oin),.win_line(win_line));
+
+initial begin
+	
+	
+
+ 	xin =9'b000000111; oin= 9'b110000000; //setting 0 1 2 top row win
+  	#20;
+  	xin =9'b000111000; oin= 9'b110000001; //setting 3 4 5 mid row win
+ 	#20; 
+  	xin =9'b111000000; oin= 9'b000110001; //6 7 8 bot row win
+ 	#20;
+ 	xin =9'b001001001; oin= 0; // 0 3 6 left col win
+ 	#20; 
+ 	xin =9'b010010010; oin= 0; // 1 4 7 mid row win
+ 	#20; 
+  	xin =9'b100100100; oin= 0; // 2 5 8 right row win
+ 	#20; 
+ 	xin =9'b100010001; oin= 0; // diag 0 4 8 win
+ 	#20; 
+ 	xin =9'b001010100; oin= 0; // diag 2 4 6 win
+	#20; 
+ 	xin =9'b110100011; oin= 9'b000011100; //stalemate
+	#20; 
+	xin =9'b110001011; oin= 9'b000110100; //stalemate
+	#20; 
+ 	xin =9'b010101101; oin= 9'b101010010; // stale mate
+	#20; 
+ 	xin =9'b001110001; oin= 9'b110001110; // stalemate
+	#20; 
+ 	xin =9'b000000000; oin= 9'b0;//stalemate
+	#20;
+	xin =9'b010110001; oin= 9'b101001110;//more stalemate
+	#20;
+
+	
+  end
+endmodule
+

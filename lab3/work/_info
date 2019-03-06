@@ -1,0 +1,273 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/Cyrus/Desktop/swag
+vDetectWin
+!s110 1506288465
+!i10b 1
+!s100 :GRa_`M0N4e0[?ZNEEDAi0
+IGC:XfH>@g;ck39ojPCIXF1
+Z0 V`JN@9S9cnhjKRR_L]QIcM3
+Z1 dC:/Users/Cyrus/Desktop/lab3
+w1506288312
+8C:/Users/Cyrus/Desktop/lab3/detectwin_tb.v
+FC:/Users/Cyrus/Desktop/lab3/detectwin_tb.v
+L0 1
+Z2 OV;L;10.3d;59
+r1
+!s85 0
+31
+!s108 1506288465.608000
+!s107 C:/Users/Cyrus/Desktop/lab3/detectwin_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Cyrus/Desktop/lab3/detectwin_tb.v|
+!i113 1
+Z3 o-work work
+n@detect@win
+vdetectwin_tb
+Z4 !s110 1506289030
+!i10b 1
+!s100 H9:?8WhUEW6nS@YiePbIP1
+I2ELiDENKih^c^`[[Lf<Pg0
+R0
+R1
+w1506289029
+8C:\Users\Cyrus\Desktop\lab3\detectwin_tb.v
+FC:\Users\Cyrus\Desktop\lab3\detectwin_tb.v
+L0 1
+R2
+r1
+!s85 0
+31
+!s108 1506289030.737000
+!s107 C:\Users\Cyrus\Desktop\lab3\detectwin_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:\Users\Cyrus\Desktop\lab3\detectwin_tb.v|
+!i113 1
+R3
+vDetectWinner
+R4
+!i10b 1
+!s100 jXGei:6]^ISiOdQXARb932
+IB^OZP[U8]e`@8@AJ5Fz[<2
+R0
+R1
+w1506268442
+8C:\Users\Cyrus\Desktop\lab3\detectwin.v
+FC:\Users\Cyrus\Desktop\lab3\detectwin.v
+L0 16
+R2
+r1
+!s85 0
+31
+!s108 1506289030.987000
+!s107 C:\Users\Cyrus\Desktop\lab3\detectwin.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:\Users\Cyrus\Desktop\lab3\detectwin.v|
+!i113 1
+R3
+n@detect@winner
+vEmpty
+Z5 !s110 1507856926
+!i10b 1
+!s100 jRZcSd@O6c7b[G7R<P;U;1
+IdUFj5zb]0eeC7]mf^VoY33
+R0
+R1
+Z6 w1507856821
+Z7 8tictactoe.v
+Z8 Ftictactoe.v
+L0 147
+R2
+r1
+!s85 0
+31
+Z9 !s108 1507856926.439000
+Z10 !s107 tictactoe.v|
+Z11 !s90 tictactoe.v|
+!i113 1
+n@empty
+vgameplay_tb
+R4
+!i10b 1
+!s100 9e@`2[fTlKIEPXdF6=V^03
+Ib0_S6e:oa23U6<=g4_@882
+R0
+R1
+w1506287657
+8C:/Users/Cyrus/Desktop/lab3/gameplay_tb.v
+FC:/Users/Cyrus/Desktop/lab3/gameplay_tb.v
+L0 1
+R2
+r1
+!s85 0
+31
+!s108 1506289030.872000
+!s107 C:/Users/Cyrus/Desktop/lab3/gameplay_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Cyrus/Desktop/lab3/gameplay_tb.v|
+!i113 1
+R3
+vPlayAdjacentEdge
+R5
+!i10b 1
+!s100 C28[PT[Q36Wd=B1KJ]YVN3
+Ig`iTLM7^HAGWOA@9FoCdg1
+R0
+R1
+R6
+R7
+R8
+L0 166
+R2
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 1
+n@play@adjacent@edge
+vRArb
+R5
+!i10b 1
+!s100 cJVFdGP2iR^dzZhD209jK1
+In;1h9FIac[ZA@fUnD<T@:3
+R0
+R1
+R6
+R7
+R8
+L0 79
+R2
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 1
+n@r@arb
+vSelect3
+!s110 1506265363
+!i10b 1
+!s100 Sl0kR5PiA^e[Xz^Wz:Do91
+Iz9HRMnU3iJ0S;nTfMZF[;2
+R0
+R1
+w1506224175
+8C:/Users/Cyrus/Desktop/lab3/tictactoe.v
+FC:/Users/Cyrus/Desktop/lab3/tictactoe.v
+L0 154
+R2
+r1
+!s85 0
+31
+!s108 1506265363.793000
+!s107 C:/Users/Cyrus/Desktop/lab3/tictactoe.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Cyrus/Desktop/lab3/tictactoe.v|
+!i113 1
+R3
+n@select3
+vSelect4
+R5
+!i10b 1
+!s100 AQ76LzhgI8M;3Vh;=?T200
+IZM9`?D[X?C7fTP9>?kjhR0
+R0
+R1
+R6
+R7
+R8
+L0 156
+R2
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 1
+n@select4
+vTestTic
+R5
+!i10b 1
+!s100 ^@iaMUfdcmj03EnKQ[]B52
+I28B3YG=26JKo8;iaQo_QW1
+R0
+R1
+R6
+R7
+R8
+L0 204
+R2
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 1
+n@test@tic
+vTicTacToe
+R5
+!i10b 1
+!s100 V=1zZJ6WcYfC6f=JB;19R0
+IWaB>:RHRFZ`^G;NJc3M;50
+R0
+R1
+R6
+R7
+R8
+L0 88
+R2
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 1
+n@tic@tac@toe
+vTwoInArray
+R5
+!i10b 1
+!s100 cVG^FfgF<SLcCLYCgDh1W2
+I1J6@JhS<>0G3Gm[5]C;0>3
+R0
+R1
+R6
+R7
+R8
+L0 103
+R2
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 1
+n@two@in@array
+vTwoInRow
+R5
+!i10b 1
+!s100 bfK5g5QZD=Z_=YHF3LLci3
+I;]cDY_TKLNl@5ZGXHFiT>3
+R0
+R1
+R6
+R7
+R8
+L0 137
+R2
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 1
+n@two@in@row

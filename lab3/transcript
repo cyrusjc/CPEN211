@@ -1,0 +1,84 @@
+# do regress.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# 
+# Start time: 18:08:46 on Oct 12,2017
+# vlog tictactoe.v 
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# -- Compiling module RArb
+# -- Compiling module TicTacToe
+# -- Compiling module TwoInArray
+# -- Compiling module TwoInRow
+# -- Compiling module Empty
+# -- Compiling module Select4
+# -- Compiling module PlayAdjacentEdge
+# -- Compiling module TestTic
+# 
+# Top level modules:
+# 	TestTic
+# End time: 18:08:46 on Oct 12,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -c -do "regress.do" 
+# Start time: 18:08:46 on Oct 12,2017
+# Loading work.TestTic
+# Loading work.TicTacToe
+# Loading work.TwoInArray
+# Loading work.TwoInRow
+# Loading work.PlayAdjacentEdge
+# Loading work.Empty
+# Loading work.RArb
+# Loading work.Select4
+# 000000000 000000000 -> 000010000
+# 000000101 000000000 -> 000000010
+# 000000101 000000010 -> 000010000
+# 000000000 000100100 -> 100000000
+# 000000000 000010100 -> 001000000
+# 0 0 0
+# 0 0 0
+# 0 0 0
+#  
+# 0 0 0
+# 0 2 0
+# 0 0 0
+#  
+# 1 0 0
+# 0 2 0
+# 0 0 0
+#  
+# 1 0 2
+# 0 2 0
+# 0 0 0
+#  
+# 1 0 2
+# 0 2 0
+# 1 0 0
+#  
+# 1 0 2
+# 2 2 0
+# 1 0 0
+#  
+# 1 0 2
+# 2 2 1
+# 1 0 0
+#  
+# 1 0 2
+# 2 2 1
+# 1 0 2
+#  
+# 1 1 2
+# 2 2 1
+# 1 0 2
+#  
+# 1 1 2
+# 2 2 1
+# 1 2 2
+#  
+# 1 1 2
+# 2 2 1
+# 1 2 2
+#  
+# 1 1 2
+# 2 2 1
+# 1 2 2
+#  
+# End time: 18:08:47 on Oct 12,2017, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0

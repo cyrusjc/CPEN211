@@ -1,0 +1,36 @@
+C:/Users/Cyrus/Desktop/lab3/detectwin_tb.v {1 {vlog -work work -stats=none {C:\Users\Cyrus\Desktop\lab3\detectwin_tb.v}
+Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+-- Compiling module detectwin_tb
+
+Top level modules:
+	detectwin_tb
+
+} {} {}} C:/Users/Cyrus/Desktop/lab3/tictactoe.v {1 {vlog -work work -stats=none C:/Users/Cyrus/Desktop/lab3/tictactoe.v
+Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+-- Compiling module RArb
+-- Compiling module TicTacToe
+-- Compiling module TwoInArray
+-- Compiling module TwoInRow
+-- Compiling module Empty
+-- Compiling module Select4
+-- Compiling module PlayAdjacentEdge
+-- Compiling module TestTic
+
+Top level modules:
+	TestTic
+
+} {} {}} C:/Users/Cyrus/Desktop/lab3/gameplay_tb.v {1 {vlog -work work -stats=none C:/Users/Cyrus/Desktop/lab3/gameplay_tb.v
+Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+-- Compiling module gameplay_tb
+
+Top level modules:
+	gameplay_tb
+
+} {} {}} C:/Users/Cyrus/Desktop/lab3/detectwin.v {1 {vlog -work work -stats=none {C:\Users\Cyrus\Desktop\lab3\detectwin.v}
+Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+-- Compiling module DetectWinner
+
+Top level modules:
+	DetectWinner
+
+} {} {}}

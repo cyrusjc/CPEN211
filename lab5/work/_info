@@ -1,0 +1,312 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/Cyrus/Desktop
+valu
+Z0 !s110 1508046233
+!i10b 1
+!s100 KlR21]GWU93f[FbMGl`XJ0
+I02RRAbDKRf@ka`JojT:[_1
+Z1 V`JN@9S9cnhjKRR_L]QIcM3
+Z2 dC:/Users/Cyrus/Desktop/lab5
+w1507957872
+8C:/Users/Cyrus/Desktop/lab5/alu.v
+FC:/Users/Cyrus/Desktop/lab5/alu.v
+L0 1
+Z3 OV;L;10.3d;59
+r1
+!s85 0
+31
+!s108 1508046233.642000
+!s107 C:/Users/Cyrus/Desktop/lab5/alu.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Cyrus/Desktop/lab5/alu.v|
+!i113 1
+Z4 o-work work
+valu_tb
+R0
+!i10b 1
+!s100 K4XKY3[cFR6nVahDnabn`0
+Id^czbaAd16N9IIh=>SAEJ2
+R1
+R2
+w1507958761
+8C:/Users/Cyrus/Desktop/lab5/alu_tb.v
+FC:/Users/Cyrus/Desktop/lab5/alu_tb.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1508046233.713000
+!s107 C:/Users/Cyrus/Desktop/lab5/alu_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Cyrus/Desktop/lab5/alu_tb.v|
+!i113 1
+R4
+vdatapath
+R0
+!i10b 1
+!s100 nB[jA5Y:Y`z6z4zY0Na651
+Id0b4;oVhRJ_@8_M`NVDZ>3
+R1
+R2
+w1508032741
+8C:/Users/Cyrus/Desktop/lab5/datapath.v
+FC:/Users/Cyrus/Desktop/lab5/datapath.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1508046233.865000
+!s107 C:/Users/Cyrus/Desktop/lab5/datapath.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Cyrus/Desktop/lab5/datapath.v|
+!i113 1
+R4
+vdatapath_tb
+Z5 !s110 1508046234
+!i10b 1
+!s100 6flogNB@m7e9fW[Bf38lM2
+IE?m1:4Wh4A`l1U14[6e9h3
+R1
+R2
+w1508026701
+8C:/Users/Cyrus/Desktop/lab5/datapath_tb.v
+FC:/Users/Cyrus/Desktop/lab5/datapath_tb.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1508046234.192000
+!s107 C:/Users/Cyrus/Desktop/lab5/datapath_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Cyrus/Desktop/lab5/datapath_tb.v|
+!i113 1
+R4
+vdec
+R0
+!i10b 1
+!s100 m<_h5bL]^X5SJ46NzXA<g1
+I_?hLc7WFA5^lDP4?78NU01
+R1
+R2
+Z6 w1508031416
+Z7 8C:/Users/Cyrus/Desktop/lab5/regfile.v
+Z8 FC:/Users/Cyrus/Desktop/lab5/regfile.v
+L0 48
+R3
+r1
+!s85 0
+31
+Z9 !s108 1508046233.476000
+Z10 !s107 C:/Users/Cyrus/Desktop/lab5/regfile.v|
+Z11 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Cyrus/Desktop/lab5/regfile.v|
+!i113 1
+R4
+vinput_iface
+R0
+!i10b 1
+!s100 9=VLblSjgG9jVglRfIOhH2
+IlHBHeX`maQedMlgbFbVe]1
+R1
+R2
+Z12 w1508034087
+Z13 8C:/Users/Cyrus/Desktop/lab5/lab5_top.v
+Z14 FC:/Users/Cyrus/Desktop/lab5/lab5_top.v
+L0 109
+R3
+r1
+!s85 0
+31
+Z15 !s108 1508046233.918000
+Z16 !s107 C:/Users/Cyrus/Desktop/lab5/lab5_top.v|
+Z17 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Cyrus/Desktop/lab5/lab5_top.v|
+!i113 1
+R4
+vlab5_top
+R0
+!i10b 1
+!s100 =j:FgMjCHK1iYD^BjBJzX3
+IKo01eaJ=`fkWBd48M1Mi82
+R1
+R2
+R12
+R13
+R14
+L0 57
+R3
+r1
+!s85 0
+31
+R15
+R16
+R17
+!i113 1
+R4
+vmux2
+R0
+!i10b 1
+!s100 Yif^bd3_74C?[lhV_H2D@1
+I275aX<OY08h^eV3LB68jJ2
+R1
+R2
+R6
+R7
+R8
+L0 79
+R3
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 1
+R4
+vregfile
+R0
+!i10b 1
+!s100 S7BPj;S@7VRiKg^EC9A]C0
+I]L4RDOn5O[CPdjUF8PWSG2
+R1
+R2
+R6
+R7
+R8
+L0 1
+R3
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 1
+R4
+vregfile_tb
+R0
+!i10b 1
+!s100 hk8DHge0<N?TnZG9lniBh0
+I=jPBMKo5<zEjQBQbE@zn[1
+R1
+R2
+w1507873363
+8C:/Users/Cyrus/Desktop/lab5/regfile_tb.v
+FC:/Users/Cyrus/Desktop/lab5/regfile_tb.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1508046233.587000
+!s107 C:/Users/Cyrus/Desktop/lab5/regfile_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Cyrus/Desktop/lab5/regfile_tb.v|
+!i113 1
+R4
+vshifter
+R0
+!i10b 1
+!s100 dz<ZRS][8=AX11hlG;M4T3
+IS`D<2o]4dcVFT]hDTP=HQ2
+R1
+R2
+w1508031800
+8C:/Users/Cyrus/Desktop/lab5/shifter.v
+FC:/Users/Cyrus/Desktop/lab5/shifter.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1508046233.765000
+!s107 C:/Users/Cyrus/Desktop/lab5/shifter.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Cyrus/Desktop/lab5/shifter.v|
+!i113 1
+R4
+vshifter_tb
+R0
+!i10b 1
+!s100 SE1m5JF]6YPP1zdF1@Ze22
+I:0>cDP1mi]3[Jz@^AnSIj1
+R1
+R2
+w1507971194
+8C:/Users/Cyrus/Desktop/lab5/shifter_tb.v
+FC:/Users/Cyrus/Desktop/lab5/shifter_tb.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1508046233.814000
+!s107 C:/Users/Cyrus/Desktop/lab5/shifter_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Cyrus/Desktop/lab5/shifter_tb.v|
+!i113 1
+R4
+vsseg
+R5
+!i10b 1
+!s100 g2SbR3L5>^`eBDgRkN?`W1
+ITKVYRbXGMACH]NA[WeeRQ2
+R1
+R2
+R12
+R13
+R14
+L0 167
+R3
+r1
+!s85 0
+31
+R15
+R16
+R17
+!i113 1
+R4
+vvDFF
+R0
+!i10b 1
+!s100 @H=HKBFWk`NIEL2fGUK?B0
+IJR@>J4c1]:@KnQQ[lghfd3
+R1
+R2
+R12
+R13
+R14
+L0 148
+R3
+r1
+!s85 0
+31
+R15
+R16
+R17
+!i113 1
+R4
+nv@d@f@f
+vvDFFE
+R0
+!i10b 1
+!s100 7=zz^1>Y0gojcLLneA@>L1
+IgOQG99R_ed=K_<SYW02Uz2
+R1
+R2
+R6
+R7
+R8
+L0 61
+R3
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 1
+R4
+nv@d@f@f@e

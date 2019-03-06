@@ -1,0 +1,103 @@
+# Reading C:/altera/14.1/modelsim_ase/tcl/vsim/pref.tcl
+# do lab7_top_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim PE vmap 10.3c Lib Mapping Utility 2014.09 Sep 20 2014
+# vmap -modelsim_quiet work rtl_work 
+# Copying C:/altera/14.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied C:/altera/14.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vlog -vlog01compat -work work +incdir+E:/Google\ Drive/1st\ term/1-CPEN\ 211/lab7/lab7 {E:/Google Drive/1st term/1-CPEN 211/lab7/lab7/shifter.v}
+# Model Technology ModelSim ALTERA vlog 10.3c Compiler 2014.09 Sep 20 2014
+# Start time: 23:32:18 on Jan 12,2019
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/Google Drive/1st term/1-CPEN 211/lab7/lab7" E:/Google Drive/1st term/1-CPEN 211/lab7/lab7/shifter.v 
+# -- Compiling module shifter
+# 
+# Top level modules:
+# 	shifter
+# End time: 23:32:18 on Jan 12,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+E:/Google\ Drive/1st\ term/1-CPEN\ 211/lab7/lab7 {E:/Google Drive/1st term/1-CPEN 211/lab7/lab7/regfile.v}
+# Model Technology ModelSim ALTERA vlog 10.3c Compiler 2014.09 Sep 20 2014
+# Start time: 23:32:18 on Jan 12,2019
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/Google Drive/1st term/1-CPEN 211/lab7/lab7" E:/Google Drive/1st term/1-CPEN 211/lab7/lab7/regfile.v 
+# -- Compiling module regfile
+# -- Compiling module dec
+# -- Compiling module vDFFE
+# -- Compiling module mux2
+# -- Compiling module vDFF
+# 
+# Top level modules:
+# 	regfile
+# 	vDFF
+# End time: 23:32:18 on Jan 12,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+E:/Google\ Drive/1st\ term/1-CPEN\ 211/lab7/lab7 {E:/Google Drive/1st term/1-CPEN 211/lab7/lab7/lab7_top.v}
+# Model Technology ModelSim ALTERA vlog 10.3c Compiler 2014.09 Sep 20 2014
+# Start time: 23:32:18 on Jan 12,2019
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/Google Drive/1st term/1-CPEN 211/lab7/lab7" E:/Google Drive/1st term/1-CPEN 211/lab7/lab7/lab7_top.v 
+# -- Compiling module lab7_top
+# -- Compiling module RAM
+# 
+# Top level modules:
+# 	lab7_top
+# End time: 23:32:18 on Jan 12,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+E:/Google\ Drive/1st\ term/1-CPEN\ 211/lab7/lab7 {E:/Google Drive/1st term/1-CPEN 211/lab7/lab7/datapath.v}
+# Model Technology ModelSim ALTERA vlog 10.3c Compiler 2014.09 Sep 20 2014
+# Start time: 23:32:18 on Jan 12,2019
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/Google Drive/1st term/1-CPEN 211/lab7/lab7" E:/Google Drive/1st term/1-CPEN 211/lab7/lab7/datapath.v 
+# -- Compiling module datapath
+# -- Compiling module mux41
+# 
+# Top level modules:
+# 	datapath
+# End time: 23:32:18 on Jan 12,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+E:/Google\ Drive/1st\ term/1-CPEN\ 211/lab7/lab7 {E:/Google Drive/1st term/1-CPEN 211/lab7/lab7/alu.v}
+# Model Technology ModelSim ALTERA vlog 10.3c Compiler 2014.09 Sep 20 2014
+# Start time: 23:32:18 on Jan 12,2019
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/Google Drive/1st term/1-CPEN 211/lab7/lab7" E:/Google Drive/1st term/1-CPEN 211/lab7/lab7/alu.v 
+# -- Compiling module alu
+# -- Compiling module AddSub
+# -- Compiling module Adder1
+# 
+# Top level modules:
+# 	alu
+# End time: 23:32:18 on Jan 12,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+E:/Google\ Drive/1st\ term/1-CPEN\ 211/lab7/lab7 {E:/Google Drive/1st term/1-CPEN 211/lab7/lab7/cpu.v}
+# Model Technology ModelSim ALTERA vlog 10.3c Compiler 2014.09 Sep 20 2014
+# Start time: 23:32:18 on Jan 12,2019
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/Google Drive/1st term/1-CPEN 211/lab7/lab7" E:/Google Drive/1st term/1-CPEN 211/lab7/lab7/cpu.v 
+# -- Compiling module cpu
+# -- Compiling module mux31
+# -- Compiling module signExtended
+# -- Compiling module FSM
+# 
+# Top level modules:
+# 	cpu
+# End time: 23:32:18 on Jan 12,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+vsim work.datapath
+# vsim -gui "+altera" -l msim_transcript -do "lab7_top_run_msim_rtl_verilog.do" 
+# Start time: 23:32:27 on Jan 12,2019
+# Loading work.datapath
+# Loading work.mux41
+# Loading work.regfile
+# Loading work.dec
+# Loading work.vDFFE
+# Loading work.mux2
+# Loading work.shifter
+# Loading work.signExtended
+# Loading work.alu
+# Loading work.AddSub
+# Loading work.Adder1
+# End time: 23:32:49 on Jan 12,2019, Elapsed time: 0:00:22
+# Errors: 0, Warnings: 0

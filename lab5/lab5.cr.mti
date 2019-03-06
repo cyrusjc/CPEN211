@@ -1,0 +1,63 @@
+C:/Users/Cyrus/Desktop/lab5/lab5_top.v {1 {vlog -work work -stats=none C:/Users/Cyrus/Desktop/lab5/lab5_top.v
+Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+-- Compiling module lab5_top
+-- Compiling module input_iface
+-- Compiling module vDFF
+-- Compiling module sseg
+
+Top level modules:
+	lab5_top
+
+} {} {}} C:/Users/Cyrus/Desktop/lab5/regfile.v {1 {vlog -work work -stats=none C:/Users/Cyrus/Desktop/lab5/regfile.v
+Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+-- Compiling module regfile
+-- Compiling module dec
+-- Compiling module vDFFE
+-- Compiling module mux2
+
+Top level modules:
+	regfile
+
+} {} {}} C:/Users/Cyrus/Desktop/lab5/shifter_tb.v {1 {vlog -work work -stats=none C:/Users/Cyrus/Desktop/lab5/shifter_tb.v
+Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+-- Compiling module shifter_tb
+
+Top level modules:
+	shifter_tb
+
+} {} {}} C:/Users/Cyrus/Desktop/lab5/alu.v {1 {vlog -work work -stats=none C:/Users/Cyrus/Desktop/lab5/alu.v
+Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+-- Compiling module alu
+
+Top level modules:
+	alu
+
+} {} {}} C:/Users/Cyrus/Desktop/lab5/alu_tb.v {1 {vlog -work work -stats=none C:/Users/Cyrus/Desktop/lab5/alu_tb.v
+Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+-- Compiling module alu_tb
+
+Top level modules:
+	alu_tb
+
+} {} {}} C:/Users/Cyrus/Desktop/lab5/regfile_tb.v {1 {vlog -work work -stats=none C:/Users/Cyrus/Desktop/lab5/regfile_tb.v
+Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+-- Compiling module regfile_tb
+
+Top level modules:
+	regfile_tb
+
+} {} {}} C:/Users/Cyrus/Desktop/lab5/datapath_tb.v {1 {vlog -work work -stats=none C:/Users/Cyrus/Desktop/lab5/datapath_tb.v
+Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+-- Compiling module datapath_tb
+
+Top level modules:
+	datapath_tb
+
+} {} {}} C:/Users/Cyrus/Desktop/lab5/shifter.v {1 {vlog -work work -stats=none C:/Users/Cyrus/Desktop/lab5/shifter.v
+Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+-- Compiling module shifter
+
+Top level modules:
+	shifter
+
+} {} {}}

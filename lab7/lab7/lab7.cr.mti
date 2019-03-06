@@ -1,0 +1,99 @@
+C:/Users/Cyrus/Desktop/CPEN211/lab7/regfile_tb.v {1 {vlog -work work -stats=none C:/Users/Cyrus/Desktop/CPEN211/lab7/regfile_tb.v
+Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+-- Compiling module regfile_tb
+
+Top level modules:
+	regfile_tb
+
+} {} {}} C:/Users/Cyrus/Desktop/CPEN211/lab7/datapath_tb.v {1 {vlog -work work -stats=none C:/Users/Cyrus/Desktop/CPEN211/lab7/datapath_tb.v
+Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+-- Compiling module datapath_tb
+
+Top level modules:
+	datapath_tb
+
+} {} {}} C:/Users/Cyrus/Desktop/CPEN211/lab7/regfile.v {1 {vlog -work work -stats=none C:/Users/Cyrus/Desktop/CPEN211/lab7/regfile.v
+Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+-- Compiling module regfile
+-- Compiling module dec
+-- Compiling module vDFFE
+-- Compiling module mux2
+-- Compiling module vDFF
+
+Top level modules:
+	regfile
+	vDFF
+
+} {} {}} C:/Users/Cyrus/Desktop/CPEN211/lab7/cpu.v {1 {vlog -work work -stats=none C:/Users/Cyrus/Desktop/CPEN211/lab7/cpu.v
+Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+-- Compiling module cpu
+-- Compiling module mux31
+-- Compiling module signExtended
+-- Compiling module FSM
+
+Top level modules:
+	cpu
+
+} {} {}} C:/Users/Cyrus/Desktop/CPEN211/lab7/lab7_top_tb.v {1 {vlog -work work -stats=none {C:\Users\Cyrus\Desktop\CPEN211\lab7\lab7_top_tb.v}
+Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+-- Compiling module lab7_top_tb
+
+Top level modules:
+	lab7_top_tb
+
+} {} {}} C:/Users/Cyrus/Desktop/CPEN211/lab7/shifter.v {1 {vlog -work work -stats=none C:/Users/Cyrus/Desktop/CPEN211/lab7/shifter.v
+Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+-- Compiling module shifter
+
+Top level modules:
+	shifter
+
+} {} {}} C:/Users/Cyrus/Desktop/CPEN211/lab7/datapath.v {1 {vlog -work work -stats=none C:/Users/Cyrus/Desktop/CPEN211/lab7/datapath.v
+Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+-- Compiling module datapath
+-- Compiling module mux41
+
+Top level modules:
+	datapath
+
+} {} {}} C:/Users/Cyrus/Desktop/CPEN211/lab7/alu_tb.v {1 {vlog -work work -stats=none C:/Users/Cyrus/Desktop/CPEN211/lab7/alu_tb.v
+Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+-- Compiling module alu_tb
+
+Top level modules:
+	alu_tb
+
+} {} {}} C:/Users/Cyrus/Desktop/CPEN211/lab7/lab7_top.v {1 {vlog -work work -stats=none {C:\Users\Cyrus\Desktop\CPEN211\lab7\lab7_top.v}
+Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+-- Compiling module lab7_top
+-- Compiling module RAM
+
+Top level modules:
+	lab7_top
+
+} {} {}} C:/Users/Cyrus/Desktop/CPEN211/lab7/lab7_autograder_check.v {1 {vlog -work work -stats=none {C:\Users\Cyrus\Desktop\CPEN211\lab7\lab7_autograder_check.v}
+Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+-- Compiling module lab7_check_tb
+-- Compiling module cpu_autograder_example_tb
+
+Top level modules:
+	lab7_check_tb
+	cpu_autograder_example_tb
+
+} {} {}} C:/Users/Cyrus/Desktop/CPEN211/lab7/alu.v {1 {vlog -work work -stats=none C:/Users/Cyrus/Desktop/CPEN211/lab7/alu.v
+Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+-- Compiling module alu
+-- Compiling module AddSub
+-- Compiling module Adder1
+
+Top level modules:
+	alu
+
+} {} {}} C:/Users/Cyrus/Desktop/CPEN211/lab7/shifter_tb.v {1 {vlog -work work -stats=none C:/Users/Cyrus/Desktop/CPEN211/lab7/shifter_tb.v
+Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+-- Compiling module shifter_tb
+
+Top level modules:
+	shifter_tb
+
+} {} {}}

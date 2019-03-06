@@ -1,0 +1,4 @@
+		cpu cycles	#ld instructions executed	cache misses	
+1		4104		515				31
+2(LSR NOW #4)	7821		513				127
+3

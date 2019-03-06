@@ -1,0 +1,8 @@
+C:/Users/Cyrus/Desktop/LAB4-L1D/lab4_top.v {1 {vlog -work lab4 -stats=none {C:\Users\Cyrus\Desktop\LAB4-L1D\lab4_top.v}
+Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+-- Compiling module lab4_top
+
+Top level modules:
+	lab4_top
+
+} {} {}}

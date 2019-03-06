@@ -1,0 +1,200 @@
+
+C:/Users/Cyrus/Desktop/CPEN211/lab11/lab11-2.axf:     file format elf32-littlearm
+
+
+Disassembly of section .text:
+
+00000000 <__cs3_interrupt_vector>:
+	.global _start
+	
+	
+_start:
+	
+	LDR R12, =size 			// R12 = N
+   0:	e59fc170 	ldr	r12, [pc, #368]	; 178 <zero+0x8>
+	LDR R12, [R12]
+   4:	e59cc000 	ldr	r12, [r12]
+	MOV R10, #0				// R10 = k = 0
+   8:	e3a0a000 	mov	r10, #0
+	MOV R11, #0				// R11 = j = 0
+   c:	e3a0b000 	mov	r11, #0
+	MOV R9, #0				// R9 = i = 0		
+  10:	e3a09000 	mov	r9, #0
+	
+	LDR R0, =my_arrayA		
+  14:	e59f0160 	ldr	r0, [pc, #352]	; 17c <zero+0xc>
+	LDR R1, =my_arrayB		
+  18:	e59f1160 	ldr	r1, [pc, #352]	; 180 <zero+0x10>
+	LDR R2, =my_arrayC
+  1c:	e59f2160 	ldr	r2, [pc, #352]	; 184 <zero+0x14>
+	LDR R8, =zero
+  20:	e59f8160 	ldr	r8, [pc, #352]	; 188 <zero+0x18>
+  24:	ed985b00 	.word	0xed985b00
+
+00000028 <loopK>:
+	.word 0xED985B00 		//FLOATING POINT STORE 0 INTO D5: 	(FTSD D5, [R2])	
+	
+loopK:	
+
+	//FOR ADDRESS A
+	MOV R3, #0
+  28:	e3a03000 	mov	r3, #0
+	ADD R3, R3, R9, LSL #3	// R3 = R3 + 8*i
+  2c:	e0833189 	add	r3, r3, r9, lsl #3
+	MUL R3, R3, R12			// R3 = R3*N
+  30:	e0030c93 	mul	r3, r3, r12
+	ADD R3, R3, R10, LSL #3	// address is R3 = i*n*8 + 8*k
+  34:	e083318a 	add	r3, r3, r10, lsl #3
+	ADD R3, R3, R0 
+  38:	e0833000 	add	r3, r3, r0
+	
+	//FOR ADDRESS B
+	MOV R4, #0
+  3c:	e3a04000 	mov	r4, #0
+	ADD R4, R4, R10, LSL #3	// R4 = R4 + 8i
+  40:	e084418a 	add	r4, r4, r10, lsl #3
+	MUL R4, R4, R12			// R4 = R4*N*i
+  44:	e0040c94 	mul	r4, r4, r12
+	ADD R4, R4, R11, LSL #3	// address is R3 = k*n*8 + 8*j	
+  48:	e084418b 	add	r4, r4, r11, lsl #3
+	ADD R4, R4, R1
+  4c:	e0844001 	add	r4, r4, r1
+  50:	ed930b00 	.word	0xed930b00
+
+	.word 0xED930B00 		//FLOATING POINT LOAD: 	(FTSD D0, [R3])
+	
+	MOV R5, #0
+  54:	e3a05000 	mov	r5, #0
+	ADD R5, R5, R9, LSL #3
+  58:	e0855189 	add	r5, r5, r9, lsl #3
+	MUL R5, R5, R12
+  5c:	e0050c95 	mul	r5, r5, r12
+	ADD R5, R5, R11, LSL #3	// ADDRESS IS 8*i*n + 8*j
+  60:	e085518b 	add	r5, r5, r11, lsl #3
+	ADD R5, R2
+  64:	e0855002 	add	r5, r5, r2
+  68:	ed850b00 	.word	0xed850b00
+  6c:	ed941b00 	.word	0xed941b00
+	.word 0xED850B00 	
+	.word 0xED941B00 		//FLOATING POINT LOAD: 	(FTSD D1, [R4])
+		MOV R5, #0
+  70:	e3a05000 	mov	r5, #0
+	ADD R5, R5, R9, LSL #3
+  74:	e0855189 	add	r5, r5, r9, lsl #3
+	MUL R5, R5, R12
+  78:	e0050c95 	mul	r5, r5, r12
+	ADD R5, R5, R11, LSL #3	// ADDRESS IS 8*i*n + 8*j
+  7c:	e085518b 	add	r5, r5, r11, lsl #3
+	ADD R5, R2
+  80:	e0855002 	add	r5, r5, r2
+  84:	ed851b00 	.word	0xed851b00
+  88:	ee202b01 	.word	0xee202b01
+	.word 0xED851B00 		
+	.word 0xEE202B01 		//FLOATING POINT MULTIPLY: 	(FMULD D2, D0, D1)
+		MOV R5, #0
+  8c:	e3a05000 	mov	r5, #0
+	ADD R5, R5, R9, LSL #3
+  90:	e0855189 	add	r5, r5, r9, lsl #3
+	MUL R5, R5, R12
+  94:	e0050c95 	mul	r5, r5, r12
+	ADD R5, R5, R11, LSL #3	// ADDRESS IS 8*i*n + 8*j
+  98:	e085518b 	add	r5, r5, r11, lsl #3
+	ADD R5, R2
+  9c:	e0855002 	add	r5, r5, r2
+  a0:	ed852b00 	.word	0xed852b00
+  a4:	ee355b02 	.word	0xee355b02
+	.word 0xED852B00 		
+	.word 0xEE355B02 		//FLOATING POINT ADD: 		(FADDD D5, D5, D2)
+		MOV R5, #0
+  a8:	e3a05000 	mov	r5, #0
+	ADD R5, R5, R9, LSL #3
+  ac:	e0855189 	add	r5, r5, r9, lsl #3
+	MUL R5, R5, R12
+  b0:	e0050c95 	mul	r5, r5, r12
+	ADD R5, R5, R11, LSL #3	// ADDRESS IS 8*i*n + 8*j
+  b4:	e085518b 	add	r5, r5, r11, lsl #3
+	ADD R5, R2
+  b8:	e0855002 	add	r5, r5, r2
+  bc:	ed855b00 	.word	0xed855b00
+	.word 0xED855B00 		
+	
+	ADD R10, R10, #1		//k++
+  c0:	e28aa001 	add	r10, r10, #1
+	CMP R10, R12				// if N < k then loop
+  c4:	e15a000c 	cmp	r10, r12
+	BLT loopK
+  c8:	baffffd6 	blt	28 <loopK>
+	
+	
+	MOV R5, #0
+  cc:	e3a05000 	mov	r5, #0
+	ADD R5, R5, R9, LSL #3
+  d0:	e0855189 	add	r5, r5, r9, lsl #3
+	MUL R5, R5, R12
+  d4:	e0050c95 	mul	r5, r5, r12
+	ADD R5, R5, R11, LSL #3	// ADDRESS IS 8*i*n + 8*j
+  d8:	e085518b 	add	r5, r5, r11, lsl #3
+	ADD R5, R2
+  dc:	e0855002 	add	r5, r5, r2
+  e0:	ed855b00 	.word	0xed855b00
+  e4:	ed985b00 	.word	0xed985b00
+	.word 0xED855B00 		//FLOATING POINT STORE: 	(FTSD D5, [R5])
+	
+	.word 0xED985B00 		//SETTING D5 BACK TO ZERO...
+	MOV R10, #0				//SETTING K TO 0 AGAIN
+  e8:	e3a0a000 	mov	r10, #0
+	ADD R11, R11, #1
+  ec:	e28bb001 	add	r11, r11, #1
+	CMP R11, R12
+  f0:	e15b000c 	cmp	r11, r12
+	BLT loopK
+  f4:	baffffcb 	blt	28 <loopK>
+	
+	MOV R11, #0
+  f8:	e3a0b000 	mov	r11, #0
+	ADD R9, R9, #1
+  fc:	e2899001 	add	r9, r9, #1
+	CMP R9, R12
+ 100:	e159000c 	cmp	r9, r12
+	BLT loopK
+ 104:	baffffc7 	blt	28 <loopK>
+
+00000108 <end>:
+	
+end:
+	B end
+ 108:	eafffffe 	b	108 <end>
+
+0000010c <size>:
+ 10c:	00000002 	.word	0x00000002
+
+00000110 <my_arrayA>:
+ 110:	9999999a 	.word	0x9999999a
+ 114:	3ff19999 	.word	0x3ff19999
+ 118:	9999999a 	.word	0x9999999a
+ 11c:	40019999 	.word	0x40019999
+ 120:	66666666 	.word	0x66666666
+ 124:	400a6666 	.word	0x400a6666
+ 128:	9999999a 	.word	0x9999999a
+ 12c:	40119999 	.word	0x40119999
+
+00000130 <my_arrayB>:
+ 130:	9999999a 	.word	0x9999999a
+ 134:	3ff19999 	.word	0x3ff19999
+ 138:	9999999a 	.word	0x9999999a
+ 13c:	40019999 	.word	0x40019999
+ 140:	66666666 	.word	0x66666666
+ 144:	400a6666 	.word	0x400a6666
+ 148:	9999999a 	.word	0x9999999a
+ 14c:	40119999 	.word	0x40119999
+
+00000150 <my_arrayC>:
+	...
+
+00000170 <zero>:
+	...
+ 178:	0000010c 	.word	0x0000010c
+ 17c:	00000110 	.word	0x00000110
+ 180:	00000130 	.word	0x00000130
+ 184:	00000150 	.word	0x00000150
+ 188:	00000170 	.word	0x00000170

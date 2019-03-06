@@ -1,0 +1,17 @@
+module shifter(
+	input [15:0] Bin,
+	input [1:0] shift,
+	output reg [15:0] Bout
+);
+
+	always@(*) begin
+		case (shift)
+			2'b00 : Bout = Bin;
+			2'b01 : Bout = Bin << 1;
+			2'b10 : Bout = Bin >> 1;
+			2'b11 :	if (Bin[15]) 	Bout = {1'b1,Bin[15:1]}; //CONCATINATES 1 WITH THE 14th significant bit
+				else		Bout = {1'b0,Bin[15:1]}; //CONCATINATES 2 WITH THE 14th significant bit
+			default : Bout = 16'bxxxxxxxxxxxxxxxx;
+		endcase
+	end
+endmodule 

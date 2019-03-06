@@ -1,0 +1,374 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dE:/Google Drive/1st term/1-CPEN 211/lab7/lab7/simulation/modelsim
+vAdder1
+Z1 !s110 1547364738
+!i10b 1
+!s100 QH@z5`XLPFPSP49GR7U0d2
+IOj26mWGA8U>UWVfKEd_D11
+Z2 V`JN@9S9cnhjKRR_L]QIcM3
+R0
+Z3 w1508748124
+Z4 8E:/Google Drive/1st term/1-CPEN 211/lab7/lab7/alu.v
+Z5 FE:/Google Drive/1st term/1-CPEN 211/lab7/lab7/alu.v
+Z6 L0 59
+Z7 OV;L;10.3c;59
+r1
+!s85 0
+31
+Z8 !s108 1547364738.800000
+Z9 !s107 E:/Google Drive/1st term/1-CPEN 211/lab7/lab7/alu.v|
+Z10 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/Google Drive/1st term/1-CPEN 211/lab7/lab7|E:/Google Drive/1st term/1-CPEN 211/lab7/lab7/alu.v|
+!i113 1
+Z11 o-vlog01compat -work work
+Z12 !s92 -vlog01compat -work work {+incdir+E:/Google Drive/1st term/1-CPEN 211/lab7/lab7}
+n@adder1
+vAddSub
+R1
+!i10b 1
+!s100 I<hS2`R@G_O;NTgb<AhbD2
+IT6N>TiT8hQKzz3dX3]2YK1
+R2
+R0
+R3
+R4
+R5
+L0 44
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R12
+n@add@sub
+valu
+R1
+!i10b 1
+!s100 U799EM29KN<H8:<Zb==3O0
+I0F8XHLa5YUQAAW]hb5FHL0
+R2
+R0
+R3
+R4
+R5
+L0 1
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R12
+vcpu
+R1
+!i10b 1
+!s100 SoVAXe2^@`iQW<hY`;bdk2
+IRmmfF7E9M<8>GenG9;Afh3
+R2
+R0
+Z13 w1509299726
+Z14 8E:/Google Drive/1st term/1-CPEN 211/lab7/lab7/cpu.v
+Z15 FE:/Google Drive/1st term/1-CPEN 211/lab7/lab7/cpu.v
+L0 1
+R7
+r1
+!s85 0
+31
+Z16 !s108 1547364738.861000
+Z17 !s107 E:/Google Drive/1st term/1-CPEN 211/lab7/lab7/cpu.v|
+Z18 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/Google Drive/1st term/1-CPEN 211/lab7/lab7|E:/Google Drive/1st term/1-CPEN 211/lab7/lab7/cpu.v|
+!i113 1
+R11
+R12
+vdatapath
+R1
+!i10b 1
+!s100 Gn0[XoaWf33FNiATV@j__2
+IJ?Ic2nlgPL_<MEz?_hzYY1
+R2
+R0
+Z19 w1509279492
+Z20 8E:/Google Drive/1st term/1-CPEN 211/lab7/lab7/datapath.v
+Z21 FE:/Google Drive/1st term/1-CPEN 211/lab7/lab7/datapath.v
+L0 1
+R7
+r1
+!s85 0
+31
+Z22 !s108 1547364738.740000
+Z23 !s107 E:/Google Drive/1st term/1-CPEN 211/lab7/lab7/datapath.v|
+Z24 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/Google Drive/1st term/1-CPEN 211/lab7/lab7|E:/Google Drive/1st term/1-CPEN 211/lab7/lab7/datapath.v|
+!i113 1
+R11
+R12
+vdec
+R1
+!i10b 1
+!s100 m<_h5bL]^X5SJ46NzXA<g1
+I;zbh^?3LPCPkliRKI3m180
+R2
+R0
+Z25 w1509244670
+Z26 8E:/Google Drive/1st term/1-CPEN 211/lab7/lab7/regfile.v
+Z27 FE:/Google Drive/1st term/1-CPEN 211/lab7/lab7/regfile.v
+L0 48
+R7
+r1
+!s85 0
+31
+Z28 !s108 1547364738.536000
+Z29 !s107 E:/Google Drive/1st term/1-CPEN 211/lab7/lab7/regfile.v|
+Z30 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/Google Drive/1st term/1-CPEN 211/lab7/lab7|E:/Google Drive/1st term/1-CPEN 211/lab7/lab7/regfile.v|
+!i113 1
+R11
+R12
+vFSM
+R1
+!i10b 1
+!s100 cLjmJGn=2i=?8CK?`?LT43
+IWG4=ILgCj0lk?QQYj;@BL2
+R2
+R0
+R13
+R14
+R15
+L0 102
+R7
+r1
+!s85 0
+31
+R16
+R17
+R18
+!i113 1
+R11
+R12
+n@f@s@m
+vlab7_top
+R1
+!i10b 1
+!s100 @XET94<:o_RhS2^0AOPN40
+IN_@_1VOF9Dg@2:HCQAa6L0
+R2
+R0
+Z31 w1509974231
+Z32 8E:/Google Drive/1st term/1-CPEN 211/lab7/lab7/lab7_top.v
+Z33 FE:/Google Drive/1st term/1-CPEN 211/lab7/lab7/lab7_top.v
+L0 1
+R7
+r1
+!s85 0
+31
+Z34 !s108 1547364738.600000
+Z35 !s107 E:/Google Drive/1st term/1-CPEN 211/lab7/lab7/lab7_top.v|
+Z36 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/Google Drive/1st term/1-CPEN 211/lab7/lab7|E:/Google Drive/1st term/1-CPEN 211/lab7/lab7/lab7_top.v|
+!i113 1
+R11
+R12
+vmux2
+R1
+!i10b 1
+!s100 Yif^bd3_74C?[lhV_H2D@1
+IQ`7RcJNQf]eCdH4_h9]jA1
+R2
+R0
+R25
+R26
+R27
+L0 79
+R7
+r1
+!s85 0
+31
+R28
+R29
+R30
+!i113 1
+R11
+R12
+vmux31
+R1
+!i10b 1
+!s100 [KDm2:BUFDk3<FNT=;<Y^1
+I9R6@UMogjHm2ODJ_gW6cS1
+R2
+R0
+R13
+R14
+R15
+L0 71
+R7
+r1
+!s85 0
+31
+R16
+R17
+R18
+!i113 1
+R11
+R12
+vmux41
+R1
+!i10b 1
+!s100 1>AT1K;R7T;?Ao0SKGgSH2
+I6kbDATofNeeW<g32L6B2j3
+R2
+R0
+R19
+R20
+R21
+L0 65
+R7
+r1
+!s85 0
+31
+R22
+R23
+R24
+!i113 1
+R11
+R12
+vRAM
+R1
+!i10b 1
+!s100 FELj4iGLMaHfB4S<@e`Rh2
+INed3_83>lPXPT8hJ:kk5V0
+R2
+R0
+R31
+R32
+R33
+R6
+R7
+r1
+!s85 0
+31
+R34
+R35
+R36
+!i113 1
+R11
+R12
+n@r@a@m
+vregfile
+R1
+!i10b 1
+!s100 S7BPj;S@7VRiKg^EC9A]C0
+IcV1?DU12]IKdPSP8kblCU1
+R2
+R0
+R25
+R26
+R27
+L0 1
+R7
+r1
+!s85 0
+31
+R28
+R29
+R30
+!i113 1
+R11
+R12
+vshifter
+R1
+!i10b 1
+!s100 dz<ZRS][8=AX11hlG;M4T3
+IQcB9ET:Wzo[V7IgPNB[k`0
+R2
+R0
+w1508031802
+8E:/Google Drive/1st term/1-CPEN 211/lab7/lab7/shifter.v
+FE:/Google Drive/1st term/1-CPEN 211/lab7/lab7/shifter.v
+L0 1
+R7
+r1
+!s85 0
+31
+!s108 1547364738.466000
+!s107 E:/Google Drive/1st term/1-CPEN 211/lab7/lab7/shifter.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/Google Drive/1st term/1-CPEN 211/lab7/lab7|E:/Google Drive/1st term/1-CPEN 211/lab7/lab7/shifter.v|
+!i113 1
+R11
+R12
+vsignExtended
+R1
+!i10b 1
+!s100 >HQG8aBO`MOdYQ8[JG4Hn3
+Iidl@nK`b9zFVXTlTGaZb13
+R2
+R0
+R13
+R14
+R15
+L0 87
+R7
+r1
+!s85 0
+31
+R16
+R17
+R18
+!i113 1
+R11
+R12
+nsign@extended
+vvDFF
+R1
+!i10b 1
+!s100 g3=]EW>0`:L8DzL18X9[R1
+ISIfgalMYn:aC7<a4@IB:[0
+R2
+R0
+R25
+R26
+R27
+L0 107
+R7
+r1
+!s85 0
+31
+R28
+R29
+R30
+!i113 1
+R11
+R12
+nv@d@f@f
+vvDFFE
+R1
+!i10b 1
+!s100 7=zz^1>Y0gojcLLneA@>L1
+IIk`G73L55fM`[]RcRE6<O2
+R2
+R0
+R25
+R26
+R27
+L0 61
+R7
+r1
+!s85 0
+31
+R28
+R29
+R30
+!i113 1
+R11
+R12
+nv@d@f@f@e

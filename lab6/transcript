@@ -1,0 +1,324 @@
+# Compile of shifter_tb.v was successful.
+# Compile of alu.v was successful.
+# Compile of alu_tb.v was successful.
+# Compile of cpu.v was successful.
+# Compile of datapath.v was successful.
+# Compile of datapath_tb.v was successful.
+# Compile of lab7_autograder_check.v was successful.
+# Compile of regfile.v was successful.
+# Compile of regfile_tb.v was successful.
+# Compile of shifter.v was successful.
+# 10 compiles, 0 failed with no errors.
+add wave -position insertpoint key
+# Compile of shifter_tb.v was successful.
+# Compile of alu.v was successful.
+# Compile of alu_tb.v was successful.
+# Compile of cpu.v was successful.
+# Compile of datapath.v was successful.
+# Compile of datapath_tb.v was successful.
+# Compile of lab7_autograder_check.v was successful.
+# Compile of regfile.v was successful.
+# Compile of regfile_tb.v was successful.
+# Compile of shifter.v was successful.
+# Compile of lab7_top.v failed with 1 errors.
+# 11 compiles, 1 failed with 1 error.
+# Compile of shifter_tb.v was successful.
+# Compile of alu.v was successful.
+# Compile of alu_tb.v was successful.
+# Compile of cpu.v was successful.
+# Compile of datapath.v was successful.
+# Compile of datapath_tb.v was successful.
+# Compile of lab7_autograder_check.v was successful.
+# Compile of regfile.v was successful.
+# Compile of regfile_tb.v was successful.
+# Compile of shifter.v was successful.
+# Compile of lab7_top.v failed with 1 errors.
+# 11 compiles, 1 failed with 1 error.
+# Compile of shifter_tb.v was successful.
+# Compile of alu.v was successful.
+# Compile of alu_tb.v was successful.
+# Compile of cpu.v failed with 3 errors.
+# Compile of datapath.v was successful.
+# Compile of datapath_tb.v was successful.
+# Compile of lab7_autograder_check.v was successful.
+# Compile of regfile.v was successful.
+# Compile of regfile_tb.v was successful.
+# Compile of shifter.v was successful.
+# Compile of lab7_top.v failed with 1 errors.
+# 11 compiles, 2 failed with 4 errors.
+# Compile of shifter_tb.v was successful.
+# Compile of alu.v was successful.
+# Compile of alu_tb.v was successful.
+# Compile of cpu.v failed with 3 errors.
+# Compile of datapath.v was successful.
+# Compile of datapath_tb.v was successful.
+# Compile of lab7_autograder_check.v was successful.
+# Compile of regfile.v was successful.
+# Compile of regfile_tb.v was successful.
+# Compile of shifter.v was successful.
+# Compile of lab7_top.v failed with 1 errors.
+# 11 compiles, 2 failed with 4 errors.
+# Compile of shifter_tb.v was successful.
+# Compile of alu.v was successful.
+# Compile of alu_tb.v was successful.
+# Compile of cpu.v was successful.
+# Compile of datapath.v was successful.
+# Compile of datapath_tb.v was successful.
+# Compile of lab7_autograder_check.v was successful.
+# Compile of regfile.v was successful.
+# Compile of regfile_tb.v was successful.
+# Compile of shifter.v was successful.
+# Compile of lab7_top.v failed with 1 errors.
+# 11 compiles, 1 failed with 1 error.
+# Compile of shifter_tb.v was successful.
+# Compile of alu.v was successful.
+# Compile of alu_tb.v was successful.
+# Compile of cpu.v failed with 1 errors.
+# Compile of datapath.v was successful.
+# Compile of datapath_tb.v was successful.
+# Compile of lab7_autograder_check.v was successful.
+# Compile of regfile.v was successful.
+# Compile of regfile_tb.v was successful.
+# Compile of shifter.v was successful.
+# Compile of lab7_top.v failed with 1 errors.
+# 11 compiles, 2 failed with 2 errors.
+# Compile of shifter_tb.v was successful.
+# Compile of alu.v was successful.
+# Compile of alu_tb.v was successful.
+# Compile of cpu.v failed with 1 errors.
+# Compile of datapath.v was successful.
+# Compile of datapath_tb.v was successful.
+# Compile of lab7_autograder_check.v was successful.
+# Compile of regfile.v was successful.
+# Compile of regfile_tb.v was successful.
+# Compile of shifter.v was successful.
+# Compile of lab7_top.v failed with 1 errors.
+# 11 compiles, 2 failed with 2 errors.
+# Compile of shifter_tb.v was successful.
+# Compile of alu.v was successful.
+# Compile of alu_tb.v was successful.
+# Compile of cpu.v failed with 1 errors.
+# Compile of datapath.v was successful.
+# Compile of datapath_tb.v was successful.
+# Compile of lab7_autograder_check.v was successful.
+# Compile of regfile.v was successful.
+# Compile of regfile_tb.v was successful.
+# Compile of shifter.v was successful.
+# Compile of lab7_top.v failed with 1 errors.
+# 11 compiles, 2 failed with 2 errors.
+# Compile of shifter_tb.v was successful.
+# Compile of alu.v was successful.
+# Compile of alu_tb.v was successful.
+# Compile of cpu.v failed with 10 errors.
+# Compile of datapath.v was successful.
+# Compile of datapath_tb.v was successful.
+# Compile of lab7_autograder_check.v was successful.
+# Compile of regfile.v was successful.
+# Compile of shifter_tb.v was successful with warnings.
+# Compile of alu.v was successful.
+# Compile of alu_tb.v was successful.
+# Compile of cpu.v failed with 10 errors.
+# Compile of datapath.v was successful.
+# Compile of datapath_tb.v was successful.
+# Compile of lab7_autograder_check.v was successful.
+# Compile of regfile.v was successful.
+# Compile of regfile_tb.v was successful.
+# Compile of shifter.v was successful.
+# Compile of lab7_top.v failed with 1 errors.
+# 11 compiles, 2 failed with 11 errors.
+# Compile of regfile_tb.v failed with 1 errors.
+# Compile of shifter.v was successful.
+# Compile of lab7_top.v failed with 1 errors.
+# 11 compiles, 3 failed with 12 errors.
+# Compile of shifter_tb.v was successful.
+# Compile of alu.v was successful.
+# Compile of alu_tb.v was successful.
+# Compile of cpu.v failed with 10 errors.
+# Compile of datapath.v was successful.
+# Compile of datapath_tb.v was successful.
+# Compile of lab7_autograder_check.v was successful.
+# Compile of regfile.v was successful.
+# Compile of regfile_tb.v was successful.
+# Compile of shifter.v was successful.
+# Compile of lab7_top.v failed with 1 errors.
+# 11 compiles, 2 failed with 11 errors.
+# Compile of shifter_tb.v was successful.
+# Compile of alu.v was successful.
+# Compile of alu_tb.v was successful.
+# Compile of cpu.v failed with 1 errors.
+# Compile of datapath.v was successful.
+# Compile of datapath_tb.v was successful.
+# Compile of lab7_autograder_check.v was successful.
+# Compile of regfile.v was successful.
+# Compile of regfile_tb.v was successful.
+# Compile of shifter.v was successful.
+# Compile of lab7_top.v failed with 1 errors.
+# 11 compiles, 2 failed with 2 errors.
+# Compile of shifter_tb.v was successful.
+# Compile of alu.v was successful.
+# Compile of alu_tb.v was successful.
+# Compile of cpu.v was successful.
+# Compile of datapath.v was successful.
+# Compile of datapath_tb.v was successful.
+# Compile of lab7_autograder_check.v was successful.
+# Compile of regfile.v was successful.
+# Compile of regfile_tb.v was successful.
+# Compile of shifter.v was successful.
+# Compile of lab7_top.v failed with 1 errors.
+# 11 compiles, 1 failed with 1 error.
+# Compile of shifter_tb.v was successful.
+# Compile of alu.v was successful.
+# Compile of alu_tb.v was successful.
+# Compile of cpu.v was successful.
+# Compile of datapath.v was successful.
+# Compile of datapath_tb.v was successful.
+# Compile of lab7_autograder_check.v was successful.
+# Compile of regfile.v was successful.
+# Compile of regfile_tb.v was successful.
+# Compile of shifter.v was successful.
+# Compile of lab7_top.v failed with 1 errors.
+# 11 compiles, 1 failed with 1 error.
+# Compile of shifter_tb.v was successful.
+# Compile of alu.v was successful.
+# Compile of alu_tb.v was successful.
+# Compile of cpu.v was successful.
+# Compile of datapath.v was successful.
+# Compile of datapath_tb.v was successful.
+# Compile of lab7_autograder_check.v was successful.
+# Compile of regfile.v was successful.
+# Compile of regfile_tb.v was successful.
+# Compile of shifter.v was successful.
+# Compile of lab7_top.v failed with 3 errors.
+# 11 compiles, 1 failed with 3 errors.
+# Compile of shifter_tb.v was successful.
+# Compile of alu.v was successful.
+# Compile of alu_tb.v was successful.
+# Compile of cpu.v failed with 3 errors.
+# Compile of datapath.v was successful.
+# Compile of datapath_tb.v was successful.
+# Compile of lab7_autograder_check.v was successful.
+# Compile of regfile.v was successful.
+# Compile of regfile_tb.v was successful.
+# Compile of shifter.v was successful.
+# Compile of lab7_top.v failed with 3 errors.
+# 11 compiles, 2 failed with 6 errors.
+# Compile of shifter_tb.v was successful.
+# Compile of alu.v was successful.
+# Compile of alu_tb.v was successful.
+# Compile of cpu.v failed with 3 errors.
+# Compile of datapath.v was successful.
+# Compile of datapath_tb.v was successful.
+# Compile of lab7_autograder_check.v was successful.
+# Compile of regfile.v was successful.
+# Compile of regfile_tb.v was successful.
+# Compile of shifter.v was successful.
+# Compile of lab7_top.v failed with 3 errors.
+# 11 compiles, 2 failed with 6 errors.
+# Compile of shifter_tb.v was successful.
+# Compile of alu.v was successful.
+# Compile of alu_tb.v was successful.
+# Compile of cpu.v failed with 1 errors.
+# Compile of datapath.v was successful.
+# Compile of datapath_tb.v was successful.
+# Compile of lab7_autograder_check.v was successful.
+# Compile of regfile.v was successful.
+# Compile of regfile_tb.v was successful.
+# Compile of shifter.v was successful.
+# Compile of lab7_top.v failed with 3 errors.
+# 11 compiles, 2 failed with 4 errors.
+# Compile of shifter_tb.v was successful.
+# Compile of alu.v was successful.
+# Compile of alu_tb.v was successful.
+# Compile of cpu.v was successful.
+# Compile of datapath.v was successful.
+# Compile of datapath_tb.v was successful.
+# Compile of lab7_autograder_check.v was successful.
+# Compile of regfile.v was successful.
+# Compile of regfile_tb.v was successful.
+# Compile of shifter.v was successful.
+# Compile of lab7_top.v failed with 3 errors.
+# 11 compiles, 1 failed with 3 errors.
+# Compile of shifter_tb.v was successful.
+# Compile of alu.v was successful.
+# Compile of alu_tb.v was successful.
+# Compile of cpu.v was successful.
+# Compile of datapath.v was successful.
+# Compile of datapath_tb.v was successful.
+# Compile of lab7_autograder_check.v was successful.
+# Compile of regfile.v was successful.
+# Compile of regfile_tb.v was successful.
+# Compile of shifter.v was successful.
+# Compile of lab7_top.v failed with 3 errors.
+# 11 compiles, 1 failed with 3 errors.
+# Compile of shifter_tb.v was successful.
+# Compile of alu.v was successful.
+# Compile of alu_tb.v was successful.
+# Compile of cpu.v was successful.
+# Compile of datapath.v was successful.
+# Compile of datapath_tb.v was successful.
+# Compile of lab7_autograder_check.v was successful.
+# Compile of regfile.v was successful.
+# Compile of regfile_tb.v was successful.
+# Compile of shifter.v was successful.
+# Compile of lab7_top.v was successful.
+# 11 compiles, 0 failed with no errors.
+# Compile of shifter_tb.v was successful.
+# Compile of alu.v was successful.
+# Compile of alu_tb.v was successful.
+# Compile of cpu.v failed with 1 errors.
+# Compile of datapath.v was successful.
+# Compile of datapath_tb.v was successful.
+# Compile of lab7_autograder_check.v was successful.
+# Compile of regfile.v was successful.
+# Compile of regfile_tb.v was successful.
+# Compile of shifter.v was successful.
+# Compile of lab7_top.v was successful.
+# 11 compiles, 1 failed with 1 error.
+# Compile of shifter_tb.v was successful.
+# Compile of alu.v was successful.
+# Compile of alu_tb.v was successful.
+# Compile of cpu.v was successful.
+# Compile of datapath.v was successful.
+# Compile of datapath_tb.v was successful.
+# Compile of lab7_autograder_check.v was successful.
+# Compile of regfile.v was successful.
+# Compile of regfile_tb.v was successful.
+# Compile of shifter.v was successful.
+# Compile of lab7_top.v was successful.
+# 11 compiles, 0 failed with no errors.
+# Compile of shifter_tb.v was successful.
+# Compile of alu.v was successful.
+# Compile of alu_tb.v was successful.
+# Compile of cpu.v was successful.
+# Compile of datapath.v was successful.
+# Compile of datapath_tb.v was successful.
+# Compile of lab7_autograder_check.v was successful.
+# Compile of regfile.v was successful.
+# Compile of regfile_tb.v was successful.
+# Compile of shifter.v was successful.
+# Compile of lab7_top.v was successful.
+# 11 compiles, 0 failed with no errors.
+# Compile of shifter_tb.v was successful.
+# Compile of alu.v was successful.
+# Compile of alu_tb.v was successful.
+# Compile of cpu.v was successful.
+# Compile of datapath.v was successful.
+# Compile of datapath_tb.v was successful.
+# Compile of lab7_autograder_check.v was successful.
+# Compile of regfile.v was successful.
+# Compile of regfile_tb.v was successful.
+# Compile of shifter.v was successful.
+# Compile of lab7_top.v was successful.
+# 11 compiles, 0 failed with no errors.
+# Compile of shifter_tb.v was successful.
+# Compile of alu.v was successful.
+# Compile of alu_tb.v was successful.
+# Compile of cpu.v was successful.
+# Compile of datapath.v was successful.
+# Compile of datapath_tb.v was successful.
+# Compile of lab7_autograder_check.v was successful.
+# Compile of regfile.v was successful.
+# Compile of regfile_tb.v was successful.
+# Compile of shifter.v was successful.
+# Compile of lab7_top.v was successful.
+# 11 compiles, 0 failed with no errors.

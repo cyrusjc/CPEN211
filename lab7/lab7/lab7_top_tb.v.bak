@@ -1,0 +1,33 @@
+module lab7_top_tb();
+	
+	reg [3:0] KEY;
+	reg [9:0] SW;
+	wire[9:0] LEDR;
+	wire [6:0] HEX0, HEX1, HEX2, HEX3, HEX4, HEX5;
+
+	wire N,V,Z;
+	wire out;
+
+	reg clk,reset;
+	assign KEY[0] = ~clk;
+	assign KEY[1] = ~reset;
+	
+	lab7_top dut(KEY,SW,LEDR,HEX0,HEX1,HEX2,HEX3,HEX4,HEX5);
+
+	initial begin // sets it so that this turns in and off every 5ps.
+    		clk = 0; #5;
+    		forever begin
+      			clk  = 1 ; #5;
+      			clk  = 0 ; #5;
+    		end
+  	end
+
+	initial begin
+			
+	reset = 1;#10;
+	reset = 0;#10;
+	
+	SW = 8'b0000_1111;	
+
+	end
+endmodule

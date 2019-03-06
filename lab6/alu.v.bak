@@ -1,0 +1,70 @@
+module alu(
+	input [15:0] Ain,
+	input [15:0] Bin,
+	input [1:0] ALUop,
+	output reg [15:0] loadc,
+	output [2:0] status
+	);
+	
+	wire [7:0]val1 = Ain[7:0];
+	wire [7:0]val2 = Bin[7:0];
+	reg sub;
+	wire [7:0] result;
+	reg N, Z;
+	wire V;
+	//conditions of ALUop and it's results:
+	always@(*) begin
+		casex (ALUop)
+			2'b00 : {loadc,sub} = {(Ain + Bin), 1'b0};
+			2'b01 : {loadc,sub} = {(Ain - Bin), 1'b1};
+			2'b10 : {loadc,sub} = {(Ain & Bin), 1'b0};
+			2'b11 : {loadc,sub} = {~Bin,1'b0};
+			default : {loadc,sub} = {17'bxxxxxxxxxxxxxxxxx};
+		endcase
+	//after it does the always block it checks loadc to see if its 0, then status is 1.
+		if (loadc==16'b0000_0000_0000_0000) // IF ITS ALL ZEROES THEN Z = 1
+			Z = 1'b1;
+		else 
+			Z = 1'b0;
+		if (loadc[15]==1) // IF MOST SIGNIFICANT BIT IS 1 THEN ITS NEGATIVE
+			N = 1'b1;
+		else
+			N = 1'b0;
+
+	end
+
+	
+	AddSub #(8) ADDER1(Ain,Bin,sub,result,V);
+	assign status = {N,V,Z};
+
+endmodule
+
+
+//TWO MODULES TAKEN FROM THE SLIDE! SS6 ( 101, 86)
+module AddSub(a,b,sub,s,ovf) ;
+  parameter n = 8 ;
+  input [n-1:0] a, b ;
+  input sub ;           // subtract if sub=1, otherwise add
+  output [n-1:0] s ;
+  output ovf ;          // 1 if overflow
+  wire c1, c2 ;         // carry out of last two bits
+  wire ovf = c1 ^ c2 ;  // overflow if signs don't match
+
+  // add non sign bits
+  Adder1 #(n-1) ai(a[n-2:0],b[n-2:0]^{n-1{sub}},sub,c1,s[n-2:0]) ;
+  // add sign bits
+  Adder1 #(1)   as(a[n-1],b[n-1]^sub,c1,c2,s[n-1]) ;
+endmodule
+
+module Adder1(a,b,cin,cout,s) ;
+  parameter n = 8 ;
+  input [n-1:0] a, b ;
+  input cin ;
+  output [n-1:0] s ;
+  output cout ;
+  wire [n-1:0] s;
+  wire cout ;
+
+  assign {cout, s} = a + b + cin ;
+endmodule 
+

@@ -1,0 +1,5 @@
+Warning (10273): Verilog HDL warning at regfile.v(97): extended using "x" or "z"
+Warning (10273): Verilog HDL warning at lab7_top.v(29): extended using "x" or "z"
+Warning (10273): Verilog HDL warning at lab7_top.v(40): extended using "x" or "z"
+Warning (10273): Verilog HDL warning at datapath.v(79): extended using "x" or "z"
+Warning (10273): Verilog HDL warning at cpu.v(219): extended using "x" or "z"
